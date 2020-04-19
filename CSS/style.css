@@ -10,11 +10,89 @@
     width: 100%;
     height: 50px;
     background-color: red;
+    position: fixed;
+    z-index: 1;
+
+    
 }
 
+.header-up div {
+    float: left;
+}/* начало шапки */
+
 .header-in-log {
-    width: 10%;
+    width: 15%;
     height: 50px;
     background-color: grey;
 
 }
+
+.header-in-search {
+    width: 70%;
+    height: 50px;
+    background-color: green;
+    
+}
+
+.header-in-userbar {
+    width: 15%;
+     height: 50px;
+     background-color: orange;
+}/*конец шапки*/
+
+.left-menu-div {
+    width: 15%;
+    height: 100%;
+     background-color: greenyellow;
+     float: left;
+     position: fixed;
+     z-index: 0;
+     
+
+}
+
+.header-down {
+    width: 85%;
+    height: 50px;
+    background-color: yellow;
+    float: left;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 15%;
+    
+     }
+
+  
+  
+     .main-block {
+         width: 85%;
+       
+       background-color: rgb(240, 231, 231);
+       float: left;
+       margin-left: 15%;
+       margin-top:100px;
+       padding-bottom: 30px;
+
+         }
+         .main-in-block{ 
+             width: 95%;
+             height: 800px;
+             background-color: white;
+             margin-top: 10px;
+             margin-left: 2.5%;
+             margin-right: 2.5px;
+             box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+            }
+            footer {
+                width: 85%;
+                height: 150px;
+                background-color: white;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+                float: left;
+                margin-left: 15%;
+               
+            }
+
+
+
+
