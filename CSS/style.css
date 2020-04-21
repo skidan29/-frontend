@@ -69,6 +69,7 @@
        
        background-color: rgb(240, 231, 231);
        float: left;
+       
        margin-left: 15%;
        margin-top:100px;
        padding-bottom: 30px;
@@ -89,6 +90,7 @@
                 background-color: white;
                 box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
                 float: left;
+                
                 margin-left: 15%;
                
             }
