@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+   
 }
 
 
@@ -10,7 +11,7 @@
 .header-up {
     width: 100%;
     height: 50px;
-    
+    border: 0.2px solid rgb(240, 235, 235);
     position: fixed;
     z-index: 1;
 
@@ -33,9 +34,10 @@
 .header-in-log div {float: left; }   
 
 .header-in-log img {
-    max-width: 80%;
+    
      margin-top: 10px;
      margin-left: 20px;
+     max-width: 100%;
    
             
             }
@@ -46,7 +48,7 @@
            
             
             .log1{width: 10%;}
-            .log2{width: 60%;}
+            .log2{width: 30%;}
 
 
 .header-in-search {
@@ -71,25 +73,66 @@ height: 50%; margin-top: 10px;}
 .left-menu-div {
     width: 15%;
     height: 100%;
-     background-color: greenyellow;
+     
      float: left;
      position: fixed;
      margin-top: 50px;
      z-index: 0;
+     padding-top: 20px;
+     padding-left: 10px;
      
 
 }
 
+.left-menu-div ul{
+     
+      list-style: none;}
+      .left-menu-div ul li{
+          color:grey;
+          width: 100%;
+          cursor: pointer;
+          padding-top: 5px;
+          padding-left: 5px;
+           }
+           .left-menu-div ul i{padding-right: 5px;}
+           
+
+           .left-menu-div ul li:hover{
+               background-color:grey;
+               color: white;
+            }
+            .red{background-color: red; color: white;}
+         
+
 .header-down {
     width: 85%;
-    height: 50px;
-    background-color: yellow;
+    height: 30px;
+    
     float: left;
     position: fixed;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 15%;
+    text-align: center;
     
      }
+     .header-down ul{list-style: none;}
+     
+     .header-down li{
+         cursor: pointer;
+         display: inline-block;
+         padding-top: 30px;
+                 margin-right: 20px;
+                 font-size: 0.9em;
+                 
+         
+    }
+
+    .header-down li:hover{
+        border-bottom: 2px solid red;
+        padding-bottom: 10px;
+        color: grey;
+        
+    }
 
   
   
@@ -112,7 +155,9 @@ height: 50%; margin-top: 10px;}
              margin-left: 2.5%;
              margin-right: 2.5px;
              box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+             padding:10px;
             }
+            .main-in-block h3{font-size: 0.9em; color: grey;}
             footer {
                 width: 85%;
                 height: 150px;
